@@ -1,0 +1,42 @@
+{
+  "id": "pf2e-vyklades-dragoon-zinneryte",
+  "title": "PF2E Vyklade's Dragoon (by Zinneryte)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "pf2e-vyklades-dragoon-zinneryte": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "wind-up": {
+            "label": "Wind-Up",
+            "description": "Actions or Spells with this trait modify and enhance the next Strike you make on your Turn, even if that Strike is part of another action or activity. An attack may only benefit from a single Wind-Up action."
+          }
+      }
+    }
+  }
+  },
+  "authors": [
+    {
+      "name": "Zinneryte",
+      "discord": "@zinnerite",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pf2e-dragoon",
+      "label": "PF2E Vyklade's Dragoon",
+      "path": "packs/pf2e-dragoon",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
